@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Embedded Video Example</h1>
+        <video width="600" controls>
+          <source src="https://eu-west-2.graphassets.com/clyk5ugurgb5g07mm171d522b/clykfavn4mj4607l1yuxl9075" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </header>
     </div>
   );
